@@ -1,0 +1,4089 @@
+{
+  "name": "",
+  "tagType": "Provider",
+  "tags": [
+    {
+      "name": "Scanner",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "Scanner",
+          "typeId": "Scanner",
+          "parameters": {
+            "IODB": {
+              "dataType": "Integer",
+              "value": 4
+            },
+            "DataDB": {
+              "dataType": "Integer",
+              "value": 10
+            }
+          },
+          "tagType": "UdtInstance",
+          "tags": [
+            {
+              "name": "Inputs",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "ManualLaneNumber",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "FishInChute",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "ManualCameraAirBlast",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CompChute",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "ManualWaterRinse",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "ScannerEntry",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "ManualFreshWaterPump",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Override",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "WaterPressure",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "ManualLaneTrigger",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "ManualSortTrigger",
+              "tagType": "AtomicTag"
+            },
+            {
+              "parameters": {
+                "StartBit": {
+                  "dataType": "Integer",
+                  "value": 18
+                },
+                "DBFish": {
+                  "dataType": "Integer",
+                  "value": 10
+                }
+              },
+              "name": "OutputFish",
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "Dates",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "name": "Date4",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date6",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date2",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date3",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date5",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date1",
+                      "tagType": "AtomicTag"
+                    }
+                  ]
+                },
+                {
+                  "name": "AcceleratorPressure",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "SortType",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "ScanData",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "Outputs",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "AirBlastCamera",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "LEDs",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "WaterPumpOn",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "RinseCameras",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tubes",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "Tube4",
+          "typeId": "TubeNoSections",
+          "parameters": {
+            "DB": {
+              "dataType": "Integer",
+              "value": 304
+            }
+          },
+          "tagType": "UdtInstance",
+          "tags": [
+            {
+              "name": "TubeProperties",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "HasTube",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "MaxFishSize",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CalculateProperties",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "MinFishSize",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Size",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "FishTrigger",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "OutputCount",
+              "tagType": "AtomicTag"
+            },
+            {
+              "parameters": {
+                "StartBit": {
+                  "dataType": "String",
+                  "value": "0"
+                }
+              },
+              "name": "FishOut",
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "AcceleratorPressure",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "SortType",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "ScanData",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Dates",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "name": "Date4",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date1",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date2",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date3",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date5",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date6",
+                      "tagType": "AtomicTag"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Tube1",
+          "typeId": "TubeNoSections",
+          "parameters": {
+            "DB": {
+              "dataType": "Integer",
+              "value": 301
+            }
+          },
+          "tagType": "UdtInstance",
+          "tags": [
+            {
+              "name": "OutputCount",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "TubeProperties",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "Size",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "MaxFishSize",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CalculateProperties",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "HasTube",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "MinFishSize",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "FishTrigger",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FishOut",
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "ScanData",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Dates",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "name": "Date1",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date6",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date4",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date2",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date3",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date5",
+                      "tagType": "AtomicTag"
+                    }
+                  ]
+                },
+                {
+                  "name": "SortType",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "AcceleratorPressure",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Tube3",
+          "typeId": "TubeNoSections",
+          "parameters": {
+            "DB": {
+              "dataType": "Integer",
+              "value": 303
+            }
+          },
+          "tagType": "UdtInstance",
+          "tags": [
+            {
+              "name": "FishTrigger",
+              "tagType": "AtomicTag"
+            },
+            {
+              "parameters": {
+                "StartBit": {
+                  "dataType": "String",
+                  "value": "0"
+                }
+              },
+              "name": "FishOut",
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "SortType",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "AcceleratorPressure",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "ScanData",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Dates",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "name": "Date4",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date2",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date6",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date3",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date5",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date1",
+                      "tagType": "AtomicTag"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "TubeProperties",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "MaxFishSize",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CalculateProperties",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Size",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "MinFishSize",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "HasTube",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "OutputCount",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Tube0",
+          "typeId": "TubeNoSections",
+          "parameters": {
+            "DB": {
+              "dataType": "Integer",
+              "value": 300
+            }
+          },
+          "tagType": "UdtInstance",
+          "tags": [
+            {
+              "parameters": {
+                "StartBit": {
+                  "dataType": "String",
+                  "value": "0"
+                }
+              },
+              "name": "FishOut",
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "Dates",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "name": "Date4",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date6",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date1",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date2",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date3",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date5",
+                      "tagType": "AtomicTag"
+                    }
+                  ]
+                },
+                {
+                  "name": "ScanData",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "SortType",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "AcceleratorPressure",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "FishTrigger",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "OutputCount",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "TubeProperties",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "dataType": "Boolean",
+                  "opcServer": "Ignition OPC UA Server",
+                  "name": "HasTube",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "MinFishSize",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Size",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "MaxFishSize",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CalculateProperties",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Tube2",
+          "typeId": "TubeNoSections",
+          "parameters": {
+            "DB": {
+              "dataType": "Integer",
+              "value": 302
+            }
+          },
+          "tagType": "UdtInstance",
+          "tags": [
+            {
+              "name": "TubeProperties",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "HasTube",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Size",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "MinFishSize",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CalculateProperties",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "MaxFishSize",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "FishTrigger",
+              "tagType": "AtomicTag"
+            },
+            {
+              "parameters": {
+                "StartBit": {
+                  "dataType": "String",
+                  "value": "0"
+                }
+              },
+              "name": "FishOut",
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "AcceleratorPressure",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Dates",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "name": "Date4",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date1",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date6",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date5",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date3",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date2",
+                      "tagType": "AtomicTag"
+                    }
+                  ]
+                },
+                {
+                  "name": "ScanData",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "SortType",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "OutputCount",
+              "tagType": "AtomicTag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sorting",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "S2",
+          "typeId": "SortingGate",
+          "parameters": {
+            "DB": {
+              "dataType": "Integer",
+              "value": 22
+            }
+          },
+          "tagType": "UdtInstance",
+          "tags": [
+            {
+              "name": "ManualOpen",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FishStraight",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "StraightSensor",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Active",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "ManualClose",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Open",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Override",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "StandBy",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "SideSensor",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Close",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "CylinderRetracted",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "CylinderExtended",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FishSide",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "S1",
+          "typeId": "SortingGate",
+          "parameters": {
+            "DB": {
+              "dataType": "Integer",
+              "value": 21
+            }
+          },
+          "tagType": "UdtInstance",
+          "tags": [
+            {
+              "name": "ManualOpen",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "CylinderExtended",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FishSide",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Override",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "SideSensor",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Close",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "StandBy",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "CylinderRetracted",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Open",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "StraightSensor",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Active",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FishStraight",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "ManualClose",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "S0",
+          "typeId": "SortingGate",
+          "parameters": {
+            "DB": {
+              "dataType": "Integer",
+              "value": 26
+            }
+          },
+          "tagType": "UdtInstance",
+          "tags": [
+            {
+              "name": "CylinderExtended",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "ManualOpen",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FishSide",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FishStraight",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "ManualClose",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Open",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Close",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "StandBy",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "CylinderRetracted",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "StraightSensor",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Active",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "SideSensor",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Override",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "S3",
+          "typeId": "SortingGate",
+          "parameters": {
+            "DB": {
+              "dataType": "Integer",
+              "value": 23
+            }
+          },
+          "tagType": "UdtInstance",
+          "tags": [
+            {
+              "name": "Active",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Open",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Override",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Close",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "CylinderRetracted",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "ManualClose",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FishSide",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "StandBy",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "CylinderExtended",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "ManualOpen",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FishStraight",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "StraightSensor",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "SideSensor",
+              "tagType": "AtomicTag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Platform",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "Platform",
+          "typeId": "Platform",
+          "parameters": {
+            "DB": {
+              "dataType": "Integer",
+              "value": 1
+            }
+          },
+          "tagType": "UdtInstance",
+          "tags": [
+            {
+              "name": "Override",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Mode",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "EmergencyButton",
+              "tagType": "AtomicTag"
+            },
+            {
+              "value": "..\\\\Images\\",
+              "name": "ImagesPath",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Chiller",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "ManualChillerOn",
+              "tagType": "AtomicTag"
+            },
+            {
+              "tagGroup": "Default",
+              "name": "AirDistribution",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "PneumaticPressureSwitch",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "ManualAirDist",
+              "tagType": "AtomicTag"
+            },
+            {
+              "value": "..\\\\Demo.csv",
+              "name": "DataPath",
+              "tagType": "AtomicTag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SIM---DELETE BEFORE DEPLOY",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "l2",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "valueSource": "opc",
+              "opcItemPath": "[PLC_1]DB3,X356.0",
+              "dataType": "Boolean",
+              "name": "SIMACCEL2IN",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "[PLC_1]DB3,X350.4",
+              "dataType": "Boolean",
+              "name": "SIMS2STRAIGHT",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "[PLC_1]DB3,X350.3",
+              "dataType": "Boolean",
+              "name": "SIMS1STRAIGHT",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "[PLC_1]DB3,X356.1",
+              "dataType": "Boolean",
+              "name": "ACCEL2OUT",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            }
+          ]
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "[PLC_1]DB3,X350.1",
+          "dataType": "Boolean",
+          "name": "SIMCompChute",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "[PLC_1]DB3,X350.6",
+          "dataType": "Boolean",
+          "name": "SIMS3SIDE",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "[PLC_1]DB3,X356.3",
+          "dataType": "Boolean",
+          "name": "ACCEL3OUT",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "[PLC_1]DB3,X350.0",
+          "dataType": "Boolean",
+          "name": "S0SIDE",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "[PLC_1]DB3,X350.5",
+          "dataType": "Boolean",
+          "name": "SIMS2SIDE",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "[PLC_1]DB3,X356.2",
+          "dataType": "Boolean",
+          "name": "ACCEL3IN",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "name": "l1",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "valueSource": "opc",
+              "opcItemPath": "[PLC_1]DB3,X0.3",
+              "dataType": "Boolean",
+              "name": "SIMACCEL1OUT",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "[PLC_1]DB3,X0.2",
+              "dataType": "Boolean",
+              "name": "SIMACCELERATORIN",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "[PLC_1]DB3,X0.1",
+              "dataType": "Boolean",
+              "name": "SIMS1SIDE",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "[PLC_1]DB3,X0.0",
+              "dataType": "Boolean",
+              "name": "SIMS0Straight",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            }
+          ]
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "[PLC_1]DB3,X350.7",
+          "dataType": "Boolean",
+          "name": "SIMS3STRAIGHT",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        }
+      ]
+    },
+    {
+      "name": "Blowers",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "Blower3",
+          "typeId": "Blower",
+          "parameters": {
+            "DB": {
+              "dataType": "Integer",
+              "value": 202
+            }
+          },
+          "tagType": "UdtInstance",
+          "tags": [
+            {
+              "name": "ManualHeatExchangerTrigger",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "HeatExchangerValve",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "ManualStart",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RunTrigger",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Fault",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "SetFrequencyOut",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "SpeedFeedback",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Override",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FaultResetTrigger",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Blower2",
+          "typeId": "Blower",
+          "parameters": {
+            "DB": {
+              "dataType": "Integer",
+              "value": 201
+            }
+          },
+          "tagType": "UdtInstance",
+          "tags": [
+            {
+              "name": "FaultResetTrigger",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "SetFrequencyOut",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "ManualStart",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "HeatExchangerValve",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Override",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Fault",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "SpeedFeedback",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "ManualHeatExchangerTrigger",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RunTrigger",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Blower1",
+          "typeId": "Blower",
+          "parameters": {
+            "DB": {
+              "dataType": "Integer",
+              "value": 200
+            }
+          },
+          "tagType": "UdtInstance",
+          "tags": [
+            {
+              "name": "ManualHeatExchangerTrigger",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Fault",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FaultResetTrigger",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RunTrigger",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Override",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "SpeedFeedback",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "ManualStart",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "HeatExchangerValve",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "SetFrequencyOut",
+              "tagType": "AtomicTag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Accelerators",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "A1",
+          "typeId": "Accelerator",
+          "parameters": {
+            "DB": {
+              "dataType": "Integer",
+              "value": 60
+            }
+          },
+          "tagType": "UdtInstance",
+          "tags": [
+            {
+              "name": "Door2ManualClose",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "CEVManualClose",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Lid1",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Door1Close",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Door2Close",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Door1Open",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "AccPressure",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "CEVClose",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "LS3",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Door2Open",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "CEVOpen",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "AcceleratorManualOff",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Door1ManualClose",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "LS1",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Door1ManualOpen",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Door2ManualOpen",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "CEVManualOpen",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "LS2",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Override",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Faults",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "HighPressureFault",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "HighTemperatureFault",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "LidOpenFault",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "AccTemperature",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Lid2",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "A2",
+          "typeId": "Accelerator",
+          "parameters": {
+            "DB": {
+              "dataType": "Integer",
+              "value": 61
+            }
+          },
+          "tagType": "UdtInstance",
+          "tags": [
+            {
+              "name": "AccTemperature",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "LS3",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Lid2",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Door1Open",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "LS1",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "LS2",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Override",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "CEVManualOpen",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Door2Open",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Door2Close",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Lid1",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Door1ManualOpen",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "CEVClose",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "AccPressure",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Faults",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "HighTemperatureFault",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "LidOpenFault",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "HighPressureFault",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "CEVManualClose",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Door2ManualClose",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "AcceleratorManualOff",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Door1ManualClose",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "CEVOpen",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Door2ManualOpen",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Door1Close",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "A3",
+          "typeId": "Accelerator",
+          "parameters": {
+            "DB": {
+              "dataType": "Integer",
+              "value": 62
+            }
+          },
+          "tagType": "UdtInstance",
+          "tags": [
+            {
+              "name": "Faults",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "LidOpenFault",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "HighTemperatureFault",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "HighPressureFault",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "Door2ManualOpen",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "AccPressure",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "CEVOpen",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "LS1",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "LS3",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Door2Open",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "CEVClose",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Lid1",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Door2Close",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Override",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "AccTemperature",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Lid2",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Door1Open",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Door2ManualClose",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "CEVManualClose",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "CEVManualOpen",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Door1Close",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "LS2",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Door1ManualClose",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Door1ManualOpen",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "AcceleratorManualOff",
+              "tagType": "AtomicTag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "_types_",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "typeColor": -2500352,
+          "name": "Accelerator",
+          "parameters": {
+            "DB": {
+              "dataType": "Integer"
+            }
+          },
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X18.3"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "Door2ManualClose",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X0.0"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "Lid1",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X6.0"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "Override",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X0.1"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "Lid2",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},REAL14"
+              },
+              "valueSource": "opc",
+              "scaleMode": "Off",
+              "dataType": "Float4",
+              "name": "AccTemperature",
+              "deadband": 0.15,
+              "deadbandMode": "Absolute",
+              "formatString": "#,##0.0",
+              "tagType": "AtomicTag",
+              "engUnit": "°F",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X8.5"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "CEVClose",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X0.2"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "LS1",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X8.0"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "Door1Open",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X8.3"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "Door2Close",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X18.6"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "AcceleratorManualOff",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X8.1"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "Door2Open",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X8.4"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "CEVOpen",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X18.1"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "Door1ManualClose",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X18.4"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "CEVManualOpen",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "name": "Faults",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X26.1"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "alarms": [
+                    {
+                      "setpointA": 1.0,
+                      "mode": "Bit",
+                      "bitOnZero": false,
+                      "shelvingAllowed": false,
+                      "name": "Critical High Pressure",
+                      "priority": "Critical",
+                      "displayPath": "true",
+                      "label": {
+                        "bindType": "Expression",
+                        "value": "{InstanceName} + \" \" + {name}"
+                      }
+                    }
+                  ],
+                  "name": "HighPressureFault",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X26.3"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "alarms": [
+                    {
+                      "mode": "Bit",
+                      "bitOnZero": false,
+                      "name": "Lid Open",
+                      "displayPath": "",
+                      "priority": "Critical",
+                      "label": {
+                        "bindType": "Expression",
+                        "value": "{InstanceName} + \" \" + {Name}"
+                      }
+                    }
+                  ],
+                  "name": "LidOpenFault",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X26.2"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "alarms": [
+                    {
+                      "mode": "Bit",
+                      "name": "High Temperature Alarm",
+                      "priority": "Critical",
+                      "label": {
+                        "bindType": "Expression",
+                        "value": "{InstanceName} + \" \" + {name}"
+                      }
+                    }
+                  ],
+                  "name": "HighTemperatureFault",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                }
+              ]
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X0.3"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "LS2",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X0.4"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "LS3",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X18.2"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "Door2ManualOpen",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X18.0"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "Door1ManualOpen",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X18.5"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "CEVManualClose",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X8.2"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "Door1Close",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},REAL10"
+              },
+              "valueSource": "opc",
+              "dataType": "Float4",
+              "name": "AccPressure",
+              "formatString": "#,##0.00",
+              "deadbandMode": "Absolute",
+              "tagType": "AtomicTag",
+              "engUnit": "psi",
+              "opcServer": "Ignition OPC UA Server"
+            }
+          ]
+        },
+        {
+          "typeColor": -7667830,
+          "name": "Scanner",
+          "parameters": {
+            "IODB": {
+              "dataType": "Integer"
+            },
+            "DataDB": {
+              "dataType": "Integer"
+            }
+          },
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DataDB},X366.1"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "ManualSortTrigger",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "name": "Outputs",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{IODB},X16.5"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "LEDs",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{IODB},X16.4"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "WaterPumpOn",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{IODB},X16.3"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "AirBlastCamera",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{IODB},X16.2"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "RinseCameras",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                }
+              ]
+            },
+            {
+              "name": "OutputFish",
+              "typeId": "Fish",
+              "parameters": {
+                "StartBit": {
+                  "dataType": "Integer",
+                  "value": 0
+                },
+                "DBFish": {
+                  "dataType": "Integer",
+                  "value": 0
+                }
+              },
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "AcceleratorPressure",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Dates",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "name": "Date2",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date1",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date3",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date5",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date6",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date4",
+                      "tagType": "AtomicTag"
+                    }
+                  ]
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DBFish},STRING{StartBit+48}.250"
+                  },
+                  "name": "ScanData",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "SortType",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "Inputs",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{IODB},X18.2"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "ManualFreshWaterPump",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{IODB},X0.0"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "ScannerEntry",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{IODB},X0.1"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "CompChute",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{IODB},X18.0"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "ManualWaterRinse",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{IODB},X18.1"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "ManualCameraAirBlast",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{IODB},X14.0"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "WaterPressure",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DataDB},I4"
+                  },
+                  "valueSource": "opc",
+                  "name": "ManualLaneNumber",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DataDB},X366.2"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "ManualLaneTrigger",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{IODB},X14.2"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "Override",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{IODB},I46"
+                  },
+                  "valueSource": "opc",
+                  "name": "FishInChute",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "typeColor": -16777216,
+          "name": "Blower",
+          "parameters": {
+            "DB": {
+              "dataType": "Integer"
+            }
+          },
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},I6"
+              },
+              "valueSource": "opc",
+              "rawHigh": 16620.0,
+              "scaleMode": "Off",
+              "name": "SetFrequencyOut",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server",
+              "scaledHigh": 60.0
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},I2"
+              },
+              "valueSource": "opc",
+              "rawHigh": 16620.0,
+              "scaleMode": "Linear",
+              "name": "SpeedFeedback",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server",
+              "scaledHigh": 60.0
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X14.2"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "FaultResetTrigger",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X4.1"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "Override",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X13.2"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "HeatExchangerValve",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X14.0"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "ManualStart",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X13.1"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "alarms": [
+                {
+                  "mode": "Bit",
+                  "bitOnZero": false,
+                  "name": "VFD Fault",
+                  "priority": "Critical",
+                  "label": {
+                    "bindType": "Expression",
+                    "value": "{InstanceName} + \" \" + {Name}"
+                  }
+                }
+              ],
+              "name": "Fault",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X14.1"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "ManualHeatExchangerTrigger",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X12.0"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "RunTrigger",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            }
+          ]
+        },
+        {
+          "typeColor": -3229016,
+          "name": "Tube2Sections",
+          "parameters": {
+            "DB": {
+              "dataType": "Integer"
+            }
+          },
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "Sections",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},I386"
+                  },
+                  "valueSource": "opc",
+                  "name": "Section1",
+                  "tagGroup": "FastQuery",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},I388"
+                  },
+                  "valueSource": "opc",
+                  "name": "Section2",
+                  "tagGroup": "FastQuery",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                }
+              ]
+            },
+            {
+              "name": "LaneDistances",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "valueSource": "memory",
+                  "name": "D7",
+                  "value": 0,
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "valueSource": "memory",
+                  "dataType": "String",
+                  "name": "Units",
+                  "value": "ft",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "valueSource": "memory",
+                  "name": "D4",
+                  "value": 0,
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "valueSource": "memory",
+                  "name": "D5",
+                  "value": 0,
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "valueSource": "memory",
+                  "name": "D3",
+                  "value": 0,
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "valueSource": "memory",
+                  "name": "D2",
+                  "value": 0,
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "valueSource": "memory",
+                  "name": "D6",
+                  "value": 0,
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "valueSource": "memory",
+                  "name": "D1",
+                  "value": 0,
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "valueSource": "memory",
+                  "name": "D8",
+                  "value": 0,
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "FishOut",
+              "typeId": "Fish",
+              "parameters": {
+                "StartBit": {
+                  "dataType": "Integer",
+                  "value": 2
+                },
+                "DBFish": {
+                  "dataType": "Integer",
+                  "value": {
+                    "bindType": "parameter",
+                    "binding": "{DB}"
+                  }
+                }
+              },
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "SortType",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "dataType": "String",
+                  "formatString": "#,##0.##",
+                  "name": "ScanData",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Dates",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "name": "Date2",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date4",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date6",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date3",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date5",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date1",
+                      "tagType": "AtomicTag"
+                    }
+                  ]
+                },
+                {
+                  "name": "AcceleratorPressure",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "Sensors",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X0.6"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "ExitSpeedSensor",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X0.3"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "AfterBoosterSensor",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X0.0"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "MiddistanceSensor",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X0.4"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "AfterBoosterSpeedSensor",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X0.1"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "BeforeBoosterSensor",
+                  "tagGroup": "FastQuery",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X0.5"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "ExitSensor",
+                  "tagGroup": "FastQuery",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X0.2"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "BeforeBoosterSpeedSensor",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "typeColor": -52,
+          "name": "TubeNoSections",
+          "parameters": {
+            "DB": {
+              "dataType": "Integer"
+            }
+          },
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "typeColor": -611177,
+              "name": "FishOut",
+              "typeId": "Fish",
+              "parameters": {
+                "StartBit": {
+                  "dataType": "Integer",
+                  "value": 0
+                },
+                "DBFish": {
+                  "dataType": "Integer",
+                  "value": {
+                    "bindType": "parameter",
+                    "binding": "{DB}"
+                  }
+                }
+              },
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "Dates",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "name": "Date4",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date6",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date3",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date5",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date1",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date2",
+                      "tagType": "AtomicTag"
+                    }
+                  ]
+                },
+                {
+                  "name": "AcceleratorPressure",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DBFish},STRING{StartBit+304}.40"
+                  },
+                  "name": "SortType",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "ScanData",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X348.0"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "FishTrigger",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},I356"
+              },
+              "valueSource": "opc",
+              "name": "OutputCount",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "name": "TubeProperties",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},I360"
+                  },
+                  "valueSource": "opc",
+                  "name": "MaxFishSize",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X348.1"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "HasTube",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},I362"
+                  },
+                  "valueSource": "opc",
+                  "name": "MinFishSize",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},I358"
+                  },
+                  "valueSource": "opc",
+                  "name": "Size",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X364.0"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "CalculateProperties",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "typeColor": -14380328,
+          "name": "SortingGate",
+          "parameters": {
+            "DB": {
+              "dataType": "Integer"
+            }
+          },
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X4.0"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "ManualOpen",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X12.3"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "FishStraight",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X0.0"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "StraightSensor",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X6.0"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "Active",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X2.0"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "Open",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X4.1"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "ManualClose",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X2.1"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "Close",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X0.3"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "CylinderRetracted",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X0.1"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "SideSensor",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X0.4"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "Override",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X6.1"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "StandBy",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X0.2"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "CylinderExtended",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X12.2"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "FishSide",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            }
+          ]
+        },
+        {
+          "typeColor": -13342938,
+          "name": "Platform",
+          "parameters": {
+            "DB": {
+              "dataType": "Integer"
+            }
+          },
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X2.1"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "Chiller",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "memory",
+              "dataType": "String",
+              "name": "ImagesPath",
+              "value": "",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X0.1"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "PneumaticPressureSwitch",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "memory",
+              "dataType": "String",
+              "name": "DataPath",
+              "value": "..\\\\FishData.csv",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X6.1"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "ManualChillerOn",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X6.0"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "ManualAirDist",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X0.2"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "Override",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X0.0"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "alarms": [
+                {
+                  "setpointA": 3.0,
+                  "mode": "Bit",
+                  "activeCondition": true,
+                  "bitOnZero": false,
+                  "name": "Emergency Button Active",
+                  "label": "",
+                  "priority": "Critical"
+                }
+              ],
+              "name": "EmergencyButton",
+              "alarmEvalEnabled": true,
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},I4"
+              },
+              "valueSource": "opc",
+              "name": "Mode",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X2.0"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "AirDistribution",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            }
+          ]
+        },
+        {
+          "typeColor": -13872269,
+          "name": "SortingNetwork",
+          "typeId": "",
+          "parameters": {
+            "DB": {
+              "dataType": "Integer"
+            }
+          },
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "S0FishOut",
+              "typeId": "Fish",
+              "parameters": {
+                "StartBit": {
+                  "dataType": "Integer",
+                  "value": 2
+                },
+                "DBFish": {
+                  "dataType": "Integer",
+                  "value": {
+                    "bindType": "parameter",
+                    "binding": "{DB}"
+                  }
+                }
+              },
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "ScanData",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "AcceleratorPressure",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "SortType",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Dates",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "name": "Date2",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date6",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date1",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date4",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date3",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date5",
+                      "tagType": "AtomicTag"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "BypassFishOut",
+              "typeId": "Fish",
+              "parameters": {
+                "StartBit": {
+                  "dataType": "Integer",
+                  "value": 386
+                },
+                "DBFish": {
+                  "dataType": "Integer",
+                  "value": {
+                    "bindType": "parameter",
+                    "binding": "{DB}"
+                  }
+                }
+              },
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "ScanData",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Dates",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "name": "Date3",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date5",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date1",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date6",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date4",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Date2",
+                      "tagType": "AtomicTag"
+                    }
+                  ]
+                },
+                {
+                  "name": "SortType",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "AcceleratorPressure",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "Sensor",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X0.1"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "BypassSensor",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X0.4"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "RightDownBypass",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X0.5"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "LeftUpBypass",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X0.6"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "ClearS0",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X0.3"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "ClearUpLeft",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X0.2"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "ClearDownRight",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X0.0"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "ChuteSensor",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "typeColor": -10140895,
+          "name": "Booster",
+          "parameters": {
+            "DB": {
+              "dataType": "Integer"
+            }
+          },
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "Manual",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X16.2"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "BlowoutManualOpen",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X16.3"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "BlowoutManualClose",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X16.0"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "ManualOpen",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X0.2"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "Override",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X16.1"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "ManualClose",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                }
+              ]
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},REAL12"
+              },
+              "valueSource": "opc",
+              "dataType": "Float4",
+              "name": "Temperature",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X6.2"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "BlowoutOpen",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},REAL8"
+              },
+              "valueSource": "opc",
+              "dataType": "Float4",
+              "name": "Pressure",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X6.0"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "Open",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            }
+          ]
+        },
+        {
+          "typeColor": -2555798,
+          "name": "VFDMotor",
+          "parameters": {
+            "DBNum": {
+              "dataType": "Integer"
+            },
+            "DBOffset": {
+              "dataType": "Integer"
+            }
+          },
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "valueSource": "opc",
+              "name": "InFreq",
+              "tagType": "AtomicTag"
+            },
+            {
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "Fault",
+              "tagType": "AtomicTag"
+            },
+            {
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "Run",
+              "tagType": "AtomicTag"
+            },
+            {
+              "valueSource": "opc",
+              "name": "SetFreq",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "typeColor": -14820405,
+          "name": "Misting",
+          "parameters": {
+            "DB": {
+              "dataType": "Integer"
+            }
+          },
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X20.7"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "PumpRun",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "name": "FlowSensors",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},REAL44"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Float4",
+                  "name": "Flow1",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},REAL56"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Float4",
+                  "name": "Flow4",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},REAL64"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Float4",
+                  "name": "Flow6",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},REAL48"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Float4",
+                  "name": "Flow2",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},REAL52"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Float4",
+                  "name": "Flow3",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},REAL40"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Float4",
+                  "name": "FlowChute",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},REAL60"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Float4",
+                  "name": "Flow5",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                }
+              ]
+            },
+            {
+              "name": "Manual",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X24.2"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "ManualSolenoid2",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X24.0"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "ManualSolenoidChute",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X24.3"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "ManualSolenoid3",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X24.5"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "ManualSolenoid5",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X24.6"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "ManualSolenoid6",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X24.1"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "ManualSolenoid1",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X22.0"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "ManualPumpRun",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X24.4"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "ManualSolenoid4",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                }
+              ]
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},REAL62"
+              },
+              "valueSource": "opc",
+              "dataType": "Float4",
+              "name": "PressureDifferential",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X18.0"
+              },
+              "valueSource": "opc",
+              "dataType": "Boolean",
+              "name": "Override",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "name": "Solenoids",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X20.5"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "Solenoid5",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X20.2"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "Solenoid2",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X20.6"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "Solenoid6",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X20.1"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "Solenoid1",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X20.3"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "Solenoid3",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X20.0"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "SolenoidChute",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X20.4"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "name": "Solenoid4",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                }
+              ]
+            },
+            {
+              "name": "Faults",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X72.0"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "alarms": [
+                    {
+                      "mode": "Bit",
+                      "bitOnZero": false,
+                      "name": "HighPressureDifferentialFilter",
+                      "priority": "Critical",
+                      "label": {
+                        "bindType": "Expression",
+                        "value": "{InstanceName} + \" \" + {name}"
+                      }
+                    }
+                  ],
+                  "name": "FilterHighPressureDifferential",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X74.0"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Boolean",
+                  "alarms": [
+                    {
+                      "mode": "Bit",
+                      "name": "Max or Min Flow Fault",
+                      "priority": "Critical",
+                      "label": {
+                        "bindType": "Expression",
+                        "value": "{InstanceName} + \" \" + {name}"
+                      }
+                    }
+                  ],
+                  "name": "FlowSensorChuteFault",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "typeColor": -611177,
+          "name": "Fish",
+          "typeId": "",
+          "parameters": {
+            "StartBit": {
+              "dataType": "Integer",
+              "value": 0
+            },
+            "DBFish": {
+              "dataType": "Integer",
+              "value": 0
+            }
+          },
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DBFish},STRING{StartBit+48}.250"
+              },
+              "valueSource": "opc",
+              "dataType": "String",
+              "name": "ScanData",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "name": "Dates",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DBFish},DT{StartBit+32}"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "DateTime",
+                  "name": "Date5",
+                  "formatString": "yyyy-MM-dd h:mm:ss aa",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DBFish},DT{StartBit+16}"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "DateTime",
+                  "name": "Date3",
+                  "formatString": "yyyy-MM-dd h:mm:ss aa",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DBFish},DT{StartBit}"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "DateTime",
+                  "name": "Date1",
+                  "formatString": "yyyy-MM-dd h:mm:ss aa",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DBFish},DT{StartBit+8}"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "DateTime",
+                  "name": "Date2",
+                  "formatString": "yyyy-MM-dd h:mm:ss aa",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DBFish},DT{StartBit+40}"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "DateTime",
+                  "name": "Date6",
+                  "formatString": "yyyy-MM-dd h:mm:ss aa",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DBFish},DT{StartBit+24}"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "DateTime",
+                  "name": "Date4",
+                  "formatString": "yyyy-MM-dd h:mm:ss aa",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                }
+              ]
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DBFish},REAL{StartBit+100}"
+              },
+              "valueSource": "opc",
+              "dataType": "Float4",
+              "name": "AcceleratorPressure",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DBFish},STRING{StartBit+306}.40"
+              },
+              "valueSource": "opc",
+              "dataType": "String",
+              "name": "SortType",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Misting",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "PlatformMisting",
+          "typeId": "Misting",
+          "parameters": {
+            "DB": {
+              "dataType": "Integer",
+              "value": 100
+            }
+          },
+          "tagType": "UdtInstance",
+          "tags": [
+            {
+              "name": "Solenoids",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "Solenoid3",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "SolenoidChute",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Solenoid5",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Solenoid4",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Solenoid2",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Solenoid6",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Solenoid1",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "Override",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},REAL68"
+              },
+              "name": "PressureDifferential",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Faults",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X72.0"
+                  },
+                  "name": "FilterHighPressureDifferential",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X74.0"
+                  },
+                  "name": "FlowSensorChuteFault",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "Manual",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X76.6"
+                  },
+                  "name": "ManualSolenoid6",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X76.1"
+                  },
+                  "name": "ManualSolenoid1",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X76.4"
+                  },
+                  "name": "ManualSolenoid4",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X76.2"
+                  },
+                  "name": "ManualSolenoid2",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X76.0"
+                  },
+                  "name": "ManualSolenoidChute",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X76.5"
+                  },
+                  "name": "ManualSolenoid5",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "ManualPumpRun",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},X76.3"
+                  },
+                  "name": "ManualSolenoid3",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "PumpRun",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FlowSensors",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "Flow5",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Flow6",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Flow2",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Flow3",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "FlowChute",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Flow1",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Flow4",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
