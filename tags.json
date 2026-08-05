@@ -1,0 +1,191 @@
+{
+  "name": "Misting",
+  "tagType": "Folder",
+  "tags": [
+    {
+      "name": "PlatformMisting",
+      "typeId": "Misting",
+      "parameters": {
+        "DB": {
+          "dataType": "Integer",
+          "value": 100
+        }
+      },
+      "tagType": "UdtInstance",
+      "tags": [
+        {
+          "name": "Solenoids",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Solenoid3",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "SolenoidChute",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Solenoid5",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Solenoid4",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Solenoid2",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Solenoid6",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Solenoid1",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Override",
+          "tagType": "AtomicTag"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[PLC_1]DB{DB},REAL68"
+          },
+          "name": "PressureDifferential",
+          "tagType": "AtomicTag"
+        },
+        {
+          "name": "Faults",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X72.0"
+              },
+              "name": "FilterHighPressureDifferential",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X74.0"
+              },
+              "name": "FlowSensorChuteFault",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Manual",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X76.6"
+              },
+              "name": "ManualSolenoid6",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X76.1"
+              },
+              "name": "ManualSolenoid1",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X76.4"
+              },
+              "name": "ManualSolenoid4",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X76.2"
+              },
+              "name": "ManualSolenoid2",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X76.0"
+              },
+              "name": "ManualSolenoidChute",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X76.5"
+              },
+              "name": "ManualSolenoid5",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "ManualPumpRun",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[PLC_1]DB{DB},X76.3"
+              },
+              "name": "ManualSolenoid3",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "PumpRun",
+          "tagType": "AtomicTag"
+        },
+        {
+          "name": "FlowSensors",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Flow5",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Flow6",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Flow2",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Flow3",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FlowChute",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Flow1",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Flow4",
+              "tagType": "AtomicTag"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
