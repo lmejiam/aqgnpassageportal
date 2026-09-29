@@ -195,6 +195,7 @@
                   "tagType": "AtomicTag"
                 },
                 {
+                  "value": "Netpen C",
                   "name": "Label",
                   "tagType": "AtomicTag"
                 },
@@ -234,7 +235,7 @@
                   "tagType": "AtomicTag"
                 },
                 {
-                  "value": false,
+                  "value": true,
                   "name": "TriggerWriteSQL",
                   "tagType": "AtomicTag"
                 }
@@ -320,7 +321,7 @@
               "tagType": "Folder",
               "tags": [
                 {
-                  "value": "Netpen X",
+                  "value": "Cull",
                   "name": "Label",
                   "tagType": "AtomicTag"
                 },
@@ -412,7 +413,7 @@
                   "tagType": "AtomicTag"
                 },
                 {
-                  "value": false,
+                  "value": true,
                   "name": "TriggerWriteSQL",
                   "tagType": "AtomicTag"
                 }
@@ -514,7 +515,7 @@
                   "tagType": "AtomicTag"
                 },
                 {
-                  "value": "Netpen X",
+                  "value": "Netpen B",
                   "name": "Label",
                   "tagType": "AtomicTag"
                 },
@@ -541,7 +542,7 @@
               "tagType": "Folder",
               "tags": [
                 {
-                  "value": false,
+                  "value": true,
                   "name": "TriggerWriteSQL",
                   "tagType": "AtomicTag"
                 },
@@ -644,7 +645,7 @@
               "tagType": "Folder",
               "tags": [
                 {
-                  "value": false,
+                  "value": true,
                   "name": "TriggerWriteSQL",
                   "tagType": "AtomicTag"
                 },
@@ -738,7 +739,7 @@
                   "tagType": "AtomicTag"
                 },
                 {
-                  "value": "Netpen BB",
+                  "value": "Netpen A",
                   "name": "Label",
                   "tagType": "AtomicTag"
                 },
@@ -811,7 +812,7 @@
               "tagType": "Folder",
               "tags": [
                 {
-                  "value": false,
+                  "value": true,
                   "name": "TriggerWriteSQL",
                   "tagType": "AtomicTag"
                 },
