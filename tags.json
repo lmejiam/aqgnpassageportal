@@ -1196,6 +1196,7 @@
         },
         {
           "valueSource": "db",
+          "dataType": "String",
           "datasource": "passageportaldb",
           "query": "SELECT site_name FROM status.systemstatus WHERE id \u003d 1;",
           "name": "SiteName",
