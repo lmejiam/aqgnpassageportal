@@ -739,7 +739,7 @@
                   "tagType": "AtomicTag"
                 },
                 {
-                  "value": "Netpen A",
+                  "value": "Netpen 6",
                   "name": "Label",
                   "tagType": "AtomicTag"
                 },
@@ -1131,6 +1131,16 @@
           ]
         },
         {
+          "valueSource": "db",
+          "dataType": "String",
+          "datasource": "passageportaldb",
+          "query": "SELECT site_name FROM status.systemstatus WHERE id \u003d 1;",
+          "name": "SiteName",
+          "executionMode": "FixedRate",
+          "executionRate": 3000,
+          "tagType": "AtomicTag"
+        },
+        {
           "name": "Platform",
           "typeId": "Platform",
           "parameters": {
@@ -1195,13 +1205,10 @@
           ]
         },
         {
-          "valueSource": "db",
+          "valueSource": "memory",
           "dataType": "String",
-          "datasource": "passageportaldb",
-          "query": "SELECT site_name FROM status.systemstatus WHERE id \u003d 1;",
-          "name": "SiteName",
-          "executionMode": "FixedRate",
-          "executionRate": 3000,
+          "name": "SiteNameLabel",
+          "value": "Test",
           "tagType": "AtomicTag"
         }
       ]
