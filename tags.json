@@ -222,6 +222,10 @@
               "tagType": "AtomicTag"
             },
             {
+              "name": "SQLCount",
+              "tagType": "AtomicTag"
+            },
+            {
               "name": "OutputCount",
               "tagType": "AtomicTag"
             },
@@ -312,6 +316,10 @@
           },
           "tagType": "UdtInstance",
           "tags": [
+            {
+              "name": "SQLCount",
+              "tagType": "AtomicTag"
+            },
             {
               "name": "OutputCount",
               "tagType": "AtomicTag"
@@ -538,6 +546,10 @@
               "tagType": "AtomicTag"
             },
             {
+              "name": "SQLCount",
+              "tagType": "AtomicTag"
+            },
+            {
               "name": "NonPLCTriggers",
               "tagType": "Folder",
               "tags": [
@@ -655,6 +667,14 @@
                   "tagType": "AtomicTag"
                 }
               ]
+            },
+            {
+              "query": {
+                "bindType": "parameter",
+                "binding": "select count(*) filter (where outputlane \u003d {[.]NonPLCTriggers/TubeNum})::int from sorting.fish;"
+              },
+              "name": "SQLCount",
+              "tagType": "AtomicTag"
             },
             {
               "name": "TubeProperties",
@@ -822,6 +842,10 @@
                   "tagType": "AtomicTag"
                 }
               ]
+            },
+            {
+              "name": "SQLCount",
+              "tagType": "AtomicTag"
             },
             {
               "name": "OutputCount",
@@ -3669,6 +3693,14 @@
           },
           "tagType": "UdtType",
           "tags": [
+            {
+              "valueSource": "db",
+              "datasource": "passageportaldb",
+              "query": "select count(*) filter (where outputlane \u003d {[.]NonPLCTriggers/TubeNum}::text  )::int from sorting.fish where \"timestamp\"::date \u003d current_date;",
+              "name": "SQLCount",
+              "executionMode": "FixedRate",
+              "tagType": "AtomicTag"
+            },
             {
               "typeColor": -611177,
               "name": "FishOut",
