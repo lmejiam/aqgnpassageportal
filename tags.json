@@ -4042,6 +4042,34 @@
           "tagType": "UdtType",
           "tags": [
             {
+              "name": "PressureSensor",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},REAL46"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Float4",
+                  "name": "FreshWaterPressureInlet",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "[PLC_1]DB{DB},REAL42"
+                  },
+                  "valueSource": "opc",
+                  "dataType": "Float4",
+                  "name": "SaltWaterPressureInlet",
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                }
+              ]
+            },
+            {
               "opcItemPath": {
                 "bindType": "parameter",
                 "binding": "[PLC_1]DB{DB},X20.7"
@@ -4059,7 +4087,7 @@
                 {
                   "opcItemPath": {
                     "bindType": "parameter",
-                    "binding": "[PLC_1]DB{DB},REAL44"
+                    "binding": "[PLC_1]DB{DB},REAL54"
                   },
                   "valueSource": "opc",
                   "dataType": "Float4",
@@ -4070,29 +4098,7 @@
                 {
                   "opcItemPath": {
                     "bindType": "parameter",
-                    "binding": "[PLC_1]DB{DB},REAL56"
-                  },
-                  "valueSource": "opc",
-                  "dataType": "Float4",
-                  "name": "Flow4",
-                  "tagType": "AtomicTag",
-                  "opcServer": "Ignition OPC UA Server"
-                },
-                {
-                  "opcItemPath": {
-                    "bindType": "parameter",
-                    "binding": "[PLC_1]DB{DB},REAL64"
-                  },
-                  "valueSource": "opc",
-                  "dataType": "Float4",
-                  "name": "Flow6",
-                  "tagType": "AtomicTag",
-                  "opcServer": "Ignition OPC UA Server"
-                },
-                {
-                  "opcItemPath": {
-                    "bindType": "parameter",
-                    "binding": "[PLC_1]DB{DB},REAL48"
+                    "binding": "[PLC_1]DB{DB},REAL58"
                   },
                   "valueSource": "opc",
                   "dataType": "Float4",
@@ -4103,7 +4109,7 @@
                 {
                   "opcItemPath": {
                     "bindType": "parameter",
-                    "binding": "[PLC_1]DB{DB},REAL52"
+                    "binding": "[PLC_1]DB{DB},REAL62"
                   },
                   "valueSource": "opc",
                   "dataType": "Float4",
@@ -4114,22 +4120,11 @@
                 {
                   "opcItemPath": {
                     "bindType": "parameter",
-                    "binding": "[PLC_1]DB{DB},REAL40"
+                    "binding": "[PLC_1]DB{DB},REAL50"
                   },
                   "valueSource": "opc",
                   "dataType": "Float4",
                   "name": "FlowChute",
-                  "tagType": "AtomicTag",
-                  "opcServer": "Ignition OPC UA Server"
-                },
-                {
-                  "opcItemPath": {
-                    "bindType": "parameter",
-                    "binding": "[PLC_1]DB{DB},REAL60"
-                  },
-                  "valueSource": "opc",
-                  "dataType": "Float4",
-                  "name": "Flow5",
                   "tagType": "AtomicTag",
                   "opcServer": "Ignition OPC UA Server"
                 }
@@ -4232,7 +4227,7 @@
             {
               "opcItemPath": {
                 "bindType": "parameter",
-                "binding": "[PLC_1]DB{DB},REAL62"
+                "binding": "[PLC_1]DB{DB},REAL66"
               },
               "valueSource": "opc",
               "dataType": "Float4",
@@ -4258,18 +4253,7 @@
                 {
                   "opcItemPath": {
                     "bindType": "parameter",
-                    "binding": "[PLC_1]DB{DB},X20.5"
-                  },
-                  "valueSource": "opc",
-                  "dataType": "Boolean",
-                  "name": "Solenoid5",
-                  "tagType": "AtomicTag",
-                  "opcServer": "Ignition OPC UA Server"
-                },
-                {
-                  "opcItemPath": {
-                    "bindType": "parameter",
-                    "binding": "[PLC_1]DB{DB},X20.2"
+                    "binding": "[PLC_1]DB{DB},X22.2"
                   },
                   "valueSource": "opc",
                   "dataType": "Boolean",
@@ -4280,18 +4264,7 @@
                 {
                   "opcItemPath": {
                     "bindType": "parameter",
-                    "binding": "[PLC_1]DB{DB},X20.6"
-                  },
-                  "valueSource": "opc",
-                  "dataType": "Boolean",
-                  "name": "Solenoid6",
-                  "tagType": "AtomicTag",
-                  "opcServer": "Ignition OPC UA Server"
-                },
-                {
-                  "opcItemPath": {
-                    "bindType": "parameter",
-                    "binding": "[PLC_1]DB{DB},X20.1"
+                    "binding": "[PLC_1]DB{DB},X22.1"
                   },
                   "valueSource": "opc",
                   "dataType": "Boolean",
@@ -4302,7 +4275,7 @@
                 {
                   "opcItemPath": {
                     "bindType": "parameter",
-                    "binding": "[PLC_1]DB{DB},X20.3"
+                    "binding": "[PLC_1]DB{DB},X22.3"
                   },
                   "valueSource": "opc",
                   "dataType": "Boolean",
@@ -4313,22 +4286,11 @@
                 {
                   "opcItemPath": {
                     "bindType": "parameter",
-                    "binding": "[PLC_1]DB{DB},X20.0"
+                    "binding": "[PLC_1]DB{DB},X22.0"
                   },
                   "valueSource": "opc",
                   "dataType": "Boolean",
                   "name": "SolenoidChute",
-                  "tagType": "AtomicTag",
-                  "opcServer": "Ignition OPC UA Server"
-                },
-                {
-                  "opcItemPath": {
-                    "bindType": "parameter",
-                    "binding": "[PLC_1]DB{DB},X20.4"
-                  },
-                  "valueSource": "opc",
-                  "dataType": "Boolean",
-                  "name": "Solenoid4",
                   "tagType": "AtomicTag",
                   "opcServer": "Ignition OPC UA Server"
                 }
@@ -4546,19 +4508,7 @@
                   "tagType": "AtomicTag"
                 },
                 {
-                  "name": "Solenoid5",
-                  "tagType": "AtomicTag"
-                },
-                {
-                  "name": "Solenoid4",
-                  "tagType": "AtomicTag"
-                },
-                {
                   "name": "Solenoid2",
-                  "tagType": "AtomicTag"
-                },
-                {
-                  "name": "Solenoid6",
                   "tagType": "AtomicTag"
                 },
                 {
@@ -4597,6 +4547,20 @@
                     "binding": "[PLC_1]DB{DB},X74.0"
                   },
                   "name": "FlowSensorChuteFault",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "PressureSensor",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "SaltWaterPressureInlet",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "FreshWaterPressureInlet",
                   "tagType": "AtomicTag"
                 }
               ]
@@ -4676,14 +4640,6 @@
               "tagType": "Folder",
               "tags": [
                 {
-                  "name": "Flow5",
-                  "tagType": "AtomicTag"
-                },
-                {
-                  "name": "Flow6",
-                  "tagType": "AtomicTag"
-                },
-                {
                   "name": "Flow2",
                   "tagType": "AtomicTag"
                 },
@@ -4697,10 +4653,6 @@
                 },
                 {
                   "name": "Flow1",
-                  "tagType": "AtomicTag"
-                },
-                {
-                  "name": "Flow4",
                   "tagType": "AtomicTag"
                 }
               ]
